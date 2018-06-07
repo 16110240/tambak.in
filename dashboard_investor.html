@@ -1,0 +1,114 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap Vertical Tabs</title>
+  <link rel="stylesheet" href="css/b-3.3.0/bootstrap_alif.min.css">
+  <link rel="stylesheet" href="css/b-3.3.0/bootstrap.vertical-tabs.css">
+  
+  <style type="text/css">
+    body{
+      background-color: #F0F0F0;
+    }
+    .row{
+      background-color: #fff;
+    }
+    
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">    
+  <link href="font/font-awesome.css" rel="stylesheet" >
+
+</head>
+<body>
+
+  <div class="container" >   
+    <div class="navbar navbar-default navbar-fixed-top menu-atas"id='abc' >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" style='border:none;'>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+          </button>
+          <a class="navbar-brand scroll" href="#myCarousel" style='color:#fff;'>Tambak.in</a>
+        </div>
+        <div class="navbar-collapse collapse" id='menu'>
+          <ul class="nav navbar-nav navbar-right">
+            <li class='hover-slow'><a class='scroll' class='active' href="#myCarousel" style='color:#fff;'><span class='fa fa-home' style='font-size:20px;'>&nbsp;&nbsp;</span>Home</a></li><li>&nbsp;<li>
+            <li class='hover-slow'><a href="#" style='color:#fff;'><span class='fa fa-group' style='font-size:20px;'>&nbsp;&nbsp;</span>About</a></li><li>&nbsp;<li>
+      <li class='hover-slow'><a href="#" style='color:#fff;'data-toggle="modal" data-target="#login"><span class='fa fa-key' style='font-size:20px;'>&nbsp;&nbsp;</span>Login</a></li><li>&nbsp;<li>
+      <li class='hover-slow'><a class='scroll' href="#daftar" style='color:#fff;'><span class='fa fa-pencil' style='font-size:20px;'>&nbsp;&nbsp;</span>Daftar</a></li><li>&nbsp;<li>
+            <li class='hover-slow'><a href="#" style='color:#fff;'><span class='fa fa-line-chart' style='font-size:20px;'>&nbsp;&nbsp;</span>Investasi Kami</a></li><li>&nbsp;<li>
+      <input class='form-control' type='text'placeholder="&#xF002; Search..." style='font-family:"Helvetica Neue", Helvetica, Arial, sans-serif,FontAwesome;'>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div class="row" style="min-height:600px; margin: 20px;">
+      <div  class="col-sm-12">
+        
+        <hr/>
+        <div class="col-sm-3"> <!-- required for floating -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs tabs-left">
+            <li class="active"><a href="#profil" data-toggle="tab">Profil</a></li>
+            <li><a href="#investasi" data-toggle="tab">Investasi</a></li>
+            
+          </ul>
+        </div>
+
+        <div class="col-sm-8">
+
+         <!--  buat kontent   -->   
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="profil">
+              <div class="col-sm-12">
+                <div  class="col-sm-5">
+                  <img style="height: 180px;width: 180px;" class="img-circle" src="gambar/bat1.jpg">
+                </div>
+                <div class="col-sm-4">
+             <p> fhsyfkhsfbsdfsdhfnssuyn</p> 
+                </div>
+                <div class="col-sm-3">
+                  <p>dusfbsgfeshryu</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="investasi">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                 <li class="nav-item">
+                    <a class="nav-link active" id="dimulai-tab" data-toggle="tab" href="#dimulai" role="tab" aria-controls="dimulai" aria-selected="true">Dimulai</a>
+                 </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="dipanen-tab" data-toggle="tab" href="#dipanen" role="tab" aria-controls="profile" aria-selected="false">Dipanen</a>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="dimulai-tab" role="tabpanel" aria-labelledby="dimulai-tab">
+                    
+
+                  </div>
+                  <div class="tab-pane fade" id="dipanen-tab" role="tabpanel" aria-labelledby="dipanen-tab">...</div>
+                  
+                </div>
+  </div>
+            
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+     
+ 
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="bootstrap/bootstrap_alif.js"></script>
+</body>
+</html>
