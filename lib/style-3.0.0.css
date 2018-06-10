@@ -98,3 +98,12 @@ ul input[type=text]:focus{
 	
 }
 /*-----------------------------------------------------------------------------------------*/
+.kotak{
+	border:1px solid #007bff;
+}
+.kotak tr{
+	border:1px solid #007bff;
+}
+.kotak tr td{
+	border:1px solid #007bff;
+}
