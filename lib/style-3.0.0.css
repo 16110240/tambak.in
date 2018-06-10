@@ -107,3 +107,84 @@ ul input[type=text]:focus{
 .kotak tr td{
 	border:1px solid #007bff;
 }
+.footer-modal-investor{
+	border:none;
+}
+.footer-modal-mitra{
+	border:none;
+}
+.footer-modal-login{
+	border:none;
+}
+.modal-header{
+	border:none;
+	padding:5px;
+}
+
+.bg-grey{
+    background-color: #f7f7f7;
+}
+.pad-m {
+    padding: 20px;
+}
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer.page-footer {
+    padding: 20px 0px;
+    background-color: #007bff;
+}
+footer.example {
+    padding-left: 0;
+}
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #ee6e73;
+}
+
+footer h4, footer a {
+    color: white;
+    margin-top: 10px;
+}
+h4{
+    font-size: 27px;
+    color: #6a6a6a;
+}
+.footer-link-tentang {
+    text-decoration: none;
+}
+.footer-link-tentang:hover{
+	color:#fff;
+}
+
+img.btn-download {
+    width: 200px ;
+    height: 66px ;
+    margin-bottom: 10px;
+	opacity:0.9;
+}
+img.btn-download:hover{
+	opacity:1;
+}
+.sub-footer {
+    background-color: #594634;
+    padding: 20px 0px;
+    color: #cccccc;
+}
+.footer-bottom {
+    background-color: #392614;
+   padding: 20px 12px;
+    color: #cccccc;
+}
+.footer-bottom .link-sosmed:hover{
+    color: #007bff;
+	text-decoration:none;
+}
+.footer-bottom .link-sosmed {
+    color: #cccccc;
+    font-size: 15pt;
+    padding: 0px 15px;
+}
