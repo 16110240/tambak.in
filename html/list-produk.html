@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Tambak.in</title>
+
+    <!-- Bootstrap core CSS -->
+	<link rel="shortcut icon" href="gambar/amikom.png">	
+	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/b-3.0.0/bootstrap.css" rel="stylesheet" type='text/css'>
+	<link href='../lib/style-3.0.0.css' rel='stylesheet' type='text/css'>	
+</head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top menu-atas"id='abc' >
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" style='border:none;'>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+            <span class="icon-bar" style='background-color:#fff;'></span>
+          </button>
+          <a class="navbar-brand scroll" href="#myCarousel" style='color:#fff;'>Tambak.in</a>
+        </div>
+        <div class="navbar-collapse collapse" id='menu'>
+          <ul class="nav navbar-nav navbar-right">
+            <li class='hover-slow'><a class='scroll' class='active' href="#myCarousel" style='color:#fff;'><span class='fa fa-home' style='font-size:20px;'>&nbsp;&nbsp;</span>Home</a></li><li>&nbsp;<li>
+            <li class='hover-slow'><a href="#" style='color:#fff;'><span class='fa fa-group' style='font-size:20px;'>&nbsp;&nbsp;</span>About</a></li><li>&nbsp;<li>
+			<li class='hover-slow'><a href="#" style='color:#fff;'data-toggle="modal" data-target="#login"><span class='fa fa-key' style='font-size:20px;'>&nbsp;&nbsp;</span>Login</a></li><li>&nbsp;<li>
+			<li class='hover-slow'><a class='scroll' href="#daftar" style='color:#fff;'><span class='fa fa-pencil' style='font-size:20px;'>&nbsp;&nbsp;</span>Daftar</a></li><li>&nbsp;<li>
+            <li class='hover-slow'><a href="#" style='color:#fff;'><span class='fa fa-line-chart' style='font-size:20px;'>&nbsp;&nbsp;</span>Investasi Kami</a></li><li>&nbsp;<li>
+			<input class='form-control' type='text'placeholder="&#xF002; Search..." style='font-family:"Helvetica Neue", Helvetica, Arial, sans-serif,FontAwesome;'>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	<div class='container'>
+	<div class='col-md-12'>
+		<h2 style='margin-top:100px;margin-bottom:2%;color:#007bff;font-size:23px;'>Kategori</h2>
+	</div>	
+	<li class="col-md-3 li-kategori">
+		<div class="kotak-kategori" style="background-color:#fff;">
+			<a href="#">Ikan Laut</a>(15)
+		</div>
+	</li>
+	<li class="col-md-3 li-kategori">
+		<div class="kotak-kategori" style="background-color:#fff;">
+			<a href="#">Ikan Tambak</a>(65)
+		</div>
+	</li>
+	<li class="col-md-3 li-kategori">
+		<div class="kotak-kategori" style="background-color:#fff;">
+			<a href="#" >Ikan Budidaya</a>(5)
+		</div>
+	</li>
+	<li class="col-md-3 li-kategori">
+		<div class="kotak-kategori" style="background-color:#fff;">
+			<a href="#" >Ikan Hias</a>(53)
+		</div>
+	</li>
+	
+	<div class='col-md-12'>
+		<h2 style='margin-top:150px;margin-bottom:2%;color:#007bff;font-size:23px;'>Daftar Komoditas</h2>
+	</div>
+	<div class='col-md-12' style='border-top:5px solid #fff;border-bottom:5px solid #fff;padding:10px 0 20px 0;'>
+		<ul class='urutkan-ikan text-center'>
+			<li>URUTKAN:</li>
+			<li><a href='#' class='aktif-urut'>TERBARU</a></li>
+			<li><a href='#'>TERPOPULER</a></li>
+			<li><a href='#'>ALPHABETICAL</a></li>
+			<li><a href='#'>HARGA TERTINGGI</a></li>
+			<li><a href='#'>HARGA TERENDAH</a></li>
+		</ul>		
+	</div>	
+	
+<script src="../js/js-3.0.0/jquery.js"></script>
+<script type='text/javascript'>
+		$(document).ready(function(){
+		$('ul li a').click(function(){
+			$('ul li a').removeClass("aktif-urut");
+			$(this).addClass("aktif-urut");
+			});
+		});
+		
+	</script>
+  
+    <script src="../js/js-3.0.0/bootstrap.min.js"></script>
+    <script src="../js/js-3.0.0/holder.js"></script>
+  </body>
+</html>
