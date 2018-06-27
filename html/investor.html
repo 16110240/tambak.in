@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Investor</title>
+		<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href='../lib/style-3.0.0.css' rel='stylesheet' type='text/css'>	
+	</head>
+	<body class='badan-investor'>
+		<div class='box-login'>
+			<h2><img src='../gambar/invesment-manager.png' style='margin:25px;'></h2>
+			<form>				
+				<div class='inputBox-login'>
+					<input type='text'required oninvalid="this.setCustomValidity('Nama tidak boleh kosong')"oninput="setCustomValidity('')">
+					<label>Nama</label>
+				</div>
+				<div class='inputBox-login'>
+					<input type='email'required oninvalid="this.setCustomValidity('E-mail tidak boleh kosong')"oninput="setCustomValidity('')">
+					<label>E-mail</label>
+				</div>
+				<div class='inputBox-login'>
+					<input type='password'required oninvalid="this.setCustomValidity('Password tidak boleh kosong')"oninput="setCustomValidity('')">
+					<label>Password</label>
+				</div>
+				<div class='inputBox-login'>
+					<input type='text'required oninvalid="this.setCustomValidity('Penghasilan tidak boleh kosong')"oninput="setCustomValidity('')">
+					<label>Penghasilan</label>
+				</div>
+				<input class='btnmasuk-login' type='submit' value='Masuk'>
+				<a href='../index.html'><input class='btnbatal-login' value='Batal'></a>
+			</form>
+		</div>
+	</body>
+</html>
