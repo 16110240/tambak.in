@@ -384,3 +384,100 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 /*---------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------LOGIN-------------------------------------------*/
+.badan-login{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:url('../gambar/laut-sore.jpg');
+	background-size:cover;
+}
+.badan-mitra{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:url('../gambar/');
+	background-size:cover;
+}
+.badan-investor{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:url('../gambar/');
+	background-size:cover;
+}
+.box-login{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+	padding:40px;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	box-shadow:0 15px 25px rgba(0,0,0,0.5);
+	border-radius:10px;
+}
+.box-login h2{
+	margin:0;
+	padding:0;
+	color:#fff;
+	text-align:center;
+}
+.box-login .inputBox-login{
+	position:relative;
+}
+.box-login .inputBox-login input{
+	width:100%;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	margin-bottom:30px;
+	border:none;
+	border-bottom:1px solid #fff;
+	outline:none;
+	background:transparent;
+}
+.box-login .inputBox-login label{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition:0.5s;
+}
+.box-login .inputBox-login input:focus ~ label,
+.box-login .inputBox-login input:valid ~ label{
+	top:-18px;
+	left:0;
+	color:#3a9f4;
+	font-size:12px;
+}
+.box-login .btnmasuk-login{
+	background:trasparent ;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#03a9f4;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	width:100%;
+	margin-bottom:10px;
+}
+.box-login .btnbatal-login{
+	text-align:center;
+	background:trasparent ;
+	border:none;
+	outline:none;
+	color:#fff;
+	background:#f40303;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+	width:100%;
+}
+/*------------------------------------------------------------------------------------------*/
