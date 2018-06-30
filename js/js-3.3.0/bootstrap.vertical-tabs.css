@@ -20,7 +20,7 @@
   margin-bottom: 2px;
 }
 .tabs-left>li {
-  margin-right: -1px;
+  margin-right: 0px;
   border: 1px solid #ddd;
   border-radius: 4px 4px 4px 4px;
 }
