@@ -29,21 +29,15 @@
 	background-size:100%;
 }
 .color-2 {
-	background-color: #EBBBBC;
+	background-color: #fff;
 	background-color: rgba(235, 187, 188, 1);
 }
 .color-3 {
-	background-color: #EED9C0;
-	background-color: rgba(238, 217, 192, 1);
+	background-image:url('../../../gambar/bg3.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
 }
-.color-4 {
-	background-color: #DFEBB1;
-	background-color: rgba(223, 235, 177, 1);
-}
-.color-5{
-	background-color: #C1E6E5;
-	background-color: rgba(193, 230, 229, 1);
-}
+
 .step {	
 	width: 900px;
     height: 420px;
@@ -65,7 +59,7 @@
 	clear: both;
 }
 .step h3{
-	color: #fff;
+	color: black;
 	font-size: 52px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
@@ -73,7 +67,7 @@
 	padding: 60px 0 10px 0;
 }
 .step p {
-	color: #fff;
+	color: black;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 	font-size: 34px;
 	font-weight: normal;
@@ -81,7 +75,7 @@
 	margin: 0;
 }
 a.jms-link{
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	background: #969696; /* Old browsers */
 	background: -moz-linear-gradient(top, #969696 0%, #727272 100%); /* FF3.6+ */
