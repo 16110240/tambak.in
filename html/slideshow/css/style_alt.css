@@ -24,8 +24,9 @@
 	transition: background-color 1s linear;
 }
 .color-1 {
-	background-color: #E3D8FF;
-	background-color: rgba(227, 216, 268, 1);
+	background-image:url('../../../gambar/laut-sore.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 .color-2 {
 	background-color: #EBBBBC;
